@@ -1,8 +1,8 @@
-<h1 align="center">
+<span align="center">
   <br/>
   <a href="https://imkimchi.github.io/devpost-corners/"><img src="http://i.imgur.com/I4sT62G.png" width=700/></a>
   <br />
-</h1>
+</span>
 
 # About
 **Devpost-corners** is inspired by [github-corners](https://github.com/tholman/github-corners).
