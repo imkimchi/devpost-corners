@@ -1,9 +1,8 @@
 <h1 align="center">
   <br/>
-  <a href="https://imkimchi.github.io/devpost-corners/"><img src="http://i.imgur.com/vC7SYUN.png" width=500/></a>
+  <a href="https://imkimchi.github.io/devpost-corners/"><img src="http://i.imgur.com/I4sT62G.png" width=700/></a>
   <br />
 </h1>
-
 
 # About
 **Devpost-corners** is inspired by [github-corners](https://github.com/tholman/github-corners).
@@ -20,8 +19,9 @@ You can download it using npm, bower or just use as inline.
 `$ bower install devpost-corner`
 
 ### Using in-line
-If you prefer to use it as in-line, please check the site and get more details about it.
+If you prefer to use it as in-line, I recommend visiting page and get more details about it.
 http://imkimchi.github.io/devpost-corners
+
 
 ##License
 Copyright (c) 2017 Philip Yoonshin
