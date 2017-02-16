@@ -1,40 +1,29 @@
+<span align="center">
+  <br/>
+  <a href="https://imkimchi.github.io/devpost-corners/"><img src="http://i.imgur.com/I4sT62G.png" width=700/></a>
+  <br />
+</span>
+
 # About
-Devpost-corner is corners for projects on devpost. 
-Add this corner so everyone can see your project on devpost!
+**Devpost-corners** is inspired by [github-corners](https://github.com/tholman/github-corners)!
+
+It is mostly for hackers who like to post own project on devpost frequently, and who runs hackathon. Most hackathon these days are likely to be required to submit project using devpost. so If you like hackathon, This project is for you.
 
 ## Installation
-You can download it using npm, bower, github or using as inline style.
+You can download it using npm, bower or just use as inline.
 
-### Using npm
-`$ npm i devpost-corner`
+### Using NPM
+`$ npm install devpost-corner`
 
-### Using github
-` [GitHub](https://github.com/imkimchi/devpost-corners/blob/master/src/style.css) `
+### Using Bower
+`$ bower install devpost-corner`
 
 ### Using in-line
-Go to the site and see more details about it.
+If you prefer to use it as in-line, I recommend visiting page and get more details about it.
 http://imkimchi.github.io/devpost-corners
 
-## License
-The MIT License (MIT)
+
+##License
 Copyright (c) 2017 Philip Yoonshin
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-THE SOFTWARE.
-
-
+[The MIT License](https://github.com/imkimchi/devpost-corners/blob/master/LICENSE.md)
