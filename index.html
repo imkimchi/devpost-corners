@@ -1,10 +1,63 @@
 <!DOCTYPE html>
 <html>
+<head>
+	<link href="//cdn.jsdelivr.net/font-hack/2.020/css/hack.min.css" rel="stylesheet">
+	<link href="./style.css" rel="stylesheet">
+	<title></title>
+</head>
 <body>
-    <div style="position: fixed;/* width: 250px; */height: 300px;top: -176px;bottom: auto;left: -140px;background: #003E54;transform: rotate(45deg);-webkit-transform: rotate(135deg);z-index: 99;"><img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;float: left;webkit-transform: rotate(135deg);/* -webkit-transform: rotate(180deg); */-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);" class="devpost"/></div>
-    
-    <div style="position: fixed;/* width: 250px; */height: 300px;top: -176px;bottom: auto;right: -140px;background: #003E54;transform: rotate(225deg);-webkit-transform: rotate(225deg);z-index: 99;"><img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;float: left;webkit-transform: rotate(-90deg);/* -webkit-transform: rotate(-90deg); */-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(180deg);transform: rotate(180deg);" class="devpost"/></div>
-    
-    <div style="position: fixed;/* width: 250px; */height: 300px;top: auto;bottom: -180px;left: -140px;background: #003E54;transform: rotate(45deg);-webkit-transform: rotate(45deg);z-index: 99;"><img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;" class="devpost"/></div>
-    
-    <div style="position: fixed;/* width: 250px; */height: 300px;top: auto;bottom: -180px;right: -140px;background: #003E54;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);z-index: 99;"><img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;" class="devpost"/></div>
+	<div id="wrapper">
+		<header>
+			<h1 class="title"><a href="https://github.com/imkimchi/devpost-corners">DEVPOST CORNERS</a></h1>
+		</header>
+		<div>
+			<p><a href="https://github.com/imkimchi/devpost-corners">devpost-corner</a> is corners for projects on devpost.<br>
+			Add this corner so everyone can see your project on devpost!</p><iframe frameborder="0" height="30px" scrolling="0" src="https://ghbtns.com/github-btn.html?user=imkimchi&repo=devpost-corners&type=star&count=true&size=large" width="160px"></iframe>
+			<p>Don't put too many details in your website. let users to see more information about the project in devpost.</p>
+			<h2>Installation</h2>
+            <p>You can download its css file using npm, bower, github or just using as inline style.</p>
+			<h3>Using NPM</h3>
+			<pre class="command">$ npm install devpost-corner</pre>
+			<h3>Using BOWER</h3>
+			<pre class="command">$ bower install devpost-corner</pre>
+			<h3 id="inline">Using IN-LINE</h3>
+			<div class="demo-wrapper left-corner">
+				<div class="demo">
+					<div style="position: absolute;height: 300px;top: -176px;bottom: auto;left: -140px;background: #151513;transform: rotate(135deg);-webkit-transform: rotate(135deg);z-index: 99;"><img class="devpost" src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;webkit-transform: rotate(135deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);"></div>
+				</div>
+				<textarea id="right">&lt;div style="position: fixed;height: 300px;top: -176px;bottom: auto;left: -140px;background: #003E54;transform: rotate(135deg);-webkit-transform: rotate(135deg);z-index: 99;"&gt;&lt;img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;webkit-transform: rotate(135deg);-moz-transform: rotate(180deg);-ms-transform: rotate(180deg);-o-transform: rotate(180deg);transform: rotate(180deg);" class="devpost"/&gt;&lt;/div&gt;</textarea>
+			</div>
+			<div class="demo-wrapper right-corner">
+				<div class="demo">
+					<div style="position: absolute;height: 300px;top: -176px;bottom: auto;right: -140px;background: #64CEAA;transform: rotate(225deg);-webkit-transform: rotate(225deg);z-index: 99;"><img class="devpost" src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;webkit-transform: rotate(-90deg);/* -webkit-transform: rotate(-90deg); */-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(180deg);transform: rotate(180deg);"></div>
+				</div>
+				<textarea id="right">&lt;div style="position: fixed;height: 300px;top: -176px;bottom: auto;right: -140px;background: #111;transform: rotate(225deg);-webkit-transform: rotate(225deg);z-index: 99;"&gt;&lt;img class="devpost"src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;webkit-transform: rotate(-90deg);/* -webkit-transform: rotate(-90deg); */-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform:rotate(180deg);transform: rotate(180deg);"&gt;&lt;/div&gt;</textarea>
+			</div>
+			<div class="demo-wrapper left-corner">
+				<div class="demo">
+					<div style="position: absolute;height: 300px;top: auto;bottom: -180px;left: -140px;background: #70B7FD;transform: rotate(45deg);-webkit-transform: rotate(45deg);z-index: 99;"><img class="devpost" src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;"></div>
+				</div>
+				<textarea id="right">&lt;div style="position: fixed;height: 300px;top: auto;bottom: -180px;left: -140px;background: #70B7FD;transform: rotate(45deg);-webkit-transform: rotate(45deg);z-index: 99;"&gt;&lt;img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;" class="devpost"/&gt;&lt;/div&gt;</textarea>
+			</div>
+			<div class="demo-wrapper right-corner">
+				<div class="demo">
+					<div style="position: absolute;height: 300px;top: auto;bottom: -180px;right: -140px;background: #FD6C6C;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);z-index: 99;"><img class="devpost" src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;"></div>
+				</div>
+				<textarea id="right">&lt;div style="position: fixed;height: 300px;top: auto;bottom: -180px;right: -140px;background: #003E54;transform: rotate(-45deg);-webkit-transform: rotate(-45deg);z-index: 99;"&gt;&lt;img src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;" class="devpost"/&gt;&lt;/div&gt;</textarea>
+			</div>
+            <p>You can also make your own corner by changing the background color value of element as well!</p>
+            <h2>Issues & Feedback </h2>
+            <p>If you have any issues or feedback, please leave a post on github issue 😊</br>
+              <a href="https://github.com/imkimchi/devpost-corners/issues">https://github.com/imkimchi/devpost-corners/issues</a>
+            </p>
+            <h2>Author</h2>
+            <p>Philip Yoonshin <a href="https://github.com/imkimchi">Github</a>/<a href="https://twitter.com/r0cos_">Twitter</a></p>
+		</div>
+	</div>
+	<div style="position: fixed;height: 300px;top: -176px;bottom: auto;right: -140px;background: #111;transform: rotate(225deg);-webkit-transform: rotate(225deg);z-index: 99;"><img class="devpost" src="http://res.cloudinary.com/di0kmkxqp/image/upload/v1487151502/thisisit_poliju.png" style="width: 225px;float: left;webkit-transform: rotate(-90deg);/* -webkit-transform: rotate(-90deg); */-moz-transform: rotate(-90deg);-ms-transform: rotate(-90deg);-o-transform: rotate(180deg);transform: rotate(180deg);"></div>
+	<script src="./prism.js">
+	</script> 
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.6.0/clipboard.min.js">
+	</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "name": "devpost-corner",
+  "homepage": "https://github.com/imkimchi/devpost-corners",
+  "authors": [
+    "imkimchi <wbvcos@gmail.com>"
+  ],
+  "description": "Corners for devpost",
+  "main": "devpost-corner.css",
+  "keywords": [
+    "devpost"
+  ],
+  "license": "MIT"
+}

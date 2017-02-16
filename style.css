@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat:300,600');
+@import url('https://fonts.googleapis.com/css?family=Inconsolata');
+
+
+#wrapper {
+    padding-top: 20px;
+    max-width: 580px;
+    margin: auto;
+}
+
+.title {
+    margin-bottom: 3rem;
+}
+.title a {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 60px;
+    font-weight: 600;
+    color: #111;
+    text-decoration: none;
+}
+
+.title a:hover {
+     text-decoration: underline;
+     cursor:pointer;  
+}
+
+p {
+    font-family: 'Inconsolata', monospace;
+     font-size: 20px;
+     color: #333;
+    line-height: 1.5;
+}
+
+p > a {
+    color: #0074d9;
+    text-decoration: none;
+}
+
+p > a:hover {
+    text-decoration: underline;
+    cursor:pointer;  
+}
+
+iframe {
+    margin-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 3rem;
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    margin-top: 3rem;
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+}
+.demo-wrapper {
+    width: 270px;
+    display: inline-block;
+    border: 1px solid #D9D9D9;
+}
+.demo {
+    display: inline-block;
+    position: relative;
+    width: 270px;
+    height: 200px;
+    overflow: hidden;
+    border-bottom: 1px solid #D9D9D9;
+    background: #eee;
+    height: 160px;
+}
+
+textarea {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    height: 100px;
+    width: 270px;
+    font-size: 0.8rem;
+    font-family: 'Hack', monospace;
+}
+
+.right-corner {
+    margin-left: 32px;
+}
+
+.command {
+    font-family: Inconsolata, sans-serif;
+    background-color: #eee;
+    padding: 15px 25px;
+    font-size: 1rem;
+}
+
+.demo-wrapper {
+    margin-top: 2rem;
+}
+
+#inline {
+    margin-bottom: 0;
+}
