@@ -82,10 +82,6 @@ textarea {
     font-family: 'Hack', monospace;
 }
 
-.right-corner {
-    margin-left: 32px;
-}
-
 .command {
     font-family: Inconsolata, sans-serif;
     background-color: #eee;
