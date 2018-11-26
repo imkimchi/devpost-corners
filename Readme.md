@@ -7,7 +7,7 @@
 # About
 **Devpost-corners** is inspired by [github-corners](https://github.com/tholman/github-corners)!
 
-It is mostly for hackers who like to post own project on devpost frequently, and who runs hackathon. Most hackathon these days are likely to be required to submit project using devpost. so If you like hackathon, This project is for you.
+It is mostly for hackers who like to post own project on devpost frequently, and who participate in a hackathon. Most hackathon these days are likely to be required to submit project using devpost. so If you like hackathon, This project is for you.
 
 ## Installation
 You can download it using npm, bower or just use as inline.
